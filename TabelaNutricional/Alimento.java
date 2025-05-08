@@ -76,6 +76,5 @@ public class Alimento {
     public double getCaloriasTotais() {
         double getCaloriasTotais = (carboidratos * 4 + proteina * 4 + gorduras * 9);
         return getCaloriasTotais; // Retorna o valor do método após o cálculo
-        // return (carboidratos * 4) + (proteina * 4) + (gorduras * 9);
     }
 }
