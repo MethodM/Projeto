@@ -7,7 +7,7 @@ public interface Manutencao {
 
 }
 
-    /*/ Método para calcular o valor da manutenção
+    /* Método para calcular o valor da manutenção
     double calcularValorManutencao();
 
     // Método para exibir detalhes da manutenção

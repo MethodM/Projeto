@@ -52,14 +52,6 @@ public class GerenciadorVeiculos {
         moto2.cilindrada = 250;
         veiculos.add(moto2);
 
-        System.out.println("Detalhes do Carro: ");
-        carro.exibirDetalhes(carro.placa, carro.ano);
-        System.out.println("Valor do Seguro é de: R$ " + carro.calcularValorSeguro());
-
-        System.out.println("Detalhes da Moto: ");
-        moto.exibirDetalhes(moto.placa, moto.ano);
-        System.out.println("Valor do Seguro da Moto é de: R$ " + moto.calcularValorSeguro());
-
         for (Veiculo veiculo : veiculos) {
             veiculo.exibirDetalhes(veiculo.placa, veiculo.ano); // chama os métodos para iteração
             System.out.println("Valor do Seguro é de R$ " + veiculo.calcularValorSeguro());
